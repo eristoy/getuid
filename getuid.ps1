@@ -1,4 +1,4 @@
-$targets = "C:\Users\eas702\Downloads\tgt.txt"
+$targets = "C:\Users\%username%\Downloads\tgt.txt"
 $tgt = Get-Content $targets
 foreach ($line in $tgt)	{
 	Write-Host "First target is $line"
